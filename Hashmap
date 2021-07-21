@@ -1,0 +1,37 @@
+import java.util.*;
+class map1
+{
+  public static void main(String args[])
+  {
+    int n;
+    HashMap<Integer,String>x=new HashMap<Integer,string>();
+    int[] arr={Rama,Gita,Rama,Lakshmi,Rama,Gita,Lakshmi,Sita,Lakshmi};
+    for(int i=0;i<arr.length;i++)
+    {
+      int key;
+      key=arr[i];
+      if(x.containsKey(key))
+      x.put(key,x.get(key)+1);
+      else
+      x.put(key,1);
+      }
+     System.out.println(x);
+  }
+}
+input:
+sam 99912222
+tom 11122222
+harry 12299933
+
+sam
+edward
+harry 
+output: 
+sam=99912222 
+Not found 
+harry=12299933
+
+
+
+
+
